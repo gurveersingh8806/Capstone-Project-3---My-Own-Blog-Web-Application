@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 0 20px;
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn.small {
+  padding: 8px 12px;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.btn.secondary {
+  background: #6b7280;
+}
+
+.btn.danger {
+  background: #dc2626;
+}
+
+.link-btn {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.post-card {
+  background: white;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.post-title {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.inline-form {
+  display: inline-flex;
+  align-items: center;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post-body {
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.empty {
+  color: #666;
+}
